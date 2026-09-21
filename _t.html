@@ -1,0 +1,15 @@
+<!doctype html><meta charset="utf-8">
+<iframe id="a" src="https://pakistancryptoexchanges-brixk.kinsta.page/" style="width:1300px;height:900px;border:0"></iframe><pre id="out">x</pre>
+<script>
+document.getElementById('a').addEventListener('load',function(){setTimeout(function(){
+var d=document.getElementById('a').contentDocument;
+if(!d){document.getElementById('out').textContent='R: cross-origin';return;}
+var L=[],t=d.getElementById('compare-table');
+L.push('rows='+t.tBodies[0].rows.length);
+L.push('year='+d.querySelector('[data-check]').textContent);
+var ok=0;d.querySelectorAll('.vart img').forEach(function(i){if(i.naturalWidth>0)ok++});
+L.push('imgs='+ok+'/'+d.querySelectorAll('.vart img').length);
+d.querySelector('button[data-pick="noc"]').click();
+L.push('filter='+[].slice.call(t.tBodies[0].rows).filter(function(r){return !r.hidden}).length);
+document.getElementById('out').textContent='R:'+L.join(' ');},2500);});
+</script>

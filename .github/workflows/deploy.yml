@@ -1,0 +1,49 @@
+# Sevalla deploys this site from a public Git URL, which means it never receives
+# GitHub push webhooks. This workflow does that job: on every push to main it
+# asks the Sevalla API for a deployment and waits for it to finish, so a failed
+# build shows up as a red check on the commit instead of failing silently.
+
+name: Deploy to Sevalla
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: sevalla-deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      SITE_ID: a01f1bef-82c1-4778-ab19-7922d46453a0
+      API: https://api.sevalla.com/v3
+    steps:
+      - name: Trigger deployment
+        id: trigger
+        run: |
+          resp=$(curl -sS -X POST "$API/static-sites/$SITE_ID/deployments" \
+            -H "Authorization: Bearer ${{ secrets.SEVALLA_API_KEY }}" \
+            -H "Content-Type: application/json" \
+            -d '{"branch":"main"}')
+          id=$(echo "$resp" | jq -r '.id // empty')
+          if [ -z "$id" ]; then echo "Sevalla refused the deployment: $resp"; exit 1; fi
+          echo "id=$id" >> "$GITHUB_OUTPUT"
+          echo "Deployment $id queued for $(echo "$resp" | jq -r '.commit_sha')"
+
+      - name: Wait for it to finish
+        run: |
+          for i in $(seq 1 60); do
+            status=$(curl -sS "$API/static-sites/$SITE_ID/deployments/${{ steps.trigger.outputs.id }}" \
+              -H "Authorization: Bearer ${{ secrets.SEVALLA_API_KEY }}" | jq -r '.status')
+            echo "status: $status"
+            case "$status" in
+              success) exit 0 ;;
+              failed|error|cancelled) exit 1 ;;
+            esac
+            sleep 10
+          done
+          echo "Timed out waiting for Sevalla"; exit 1

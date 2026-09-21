@@ -23,5 +23,8 @@ Editing rules that matter:
 - Affiliate links are `rel="nofollow sponsored noopener"` and never change a
   score or a position.
 
-Deploy: Sevalla static site, auto-deploy on push to `main`. No build command,
-publish directory is `public`.
+Deploy: Sevalla static site `a01f1bef-82c1-4778-ab19-7922d46453a0`, root `.`,
+publish directory `public`, no build command. Because Sevalla pulls this repo
+by public URL it gets no GitHub webhooks, so `.github/workflows/deploy.yml`
+triggers the deployment through the Sevalla API on every push to `main`
+(needs the `SEVALLA_API_KEY` repo secret).
