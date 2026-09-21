@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# Machine-readable fact sheet for AI answer engines
+# https://pakistancryptoexchanges.com/llms.txt
+
+Sitemap: https://pakistancryptoexchanges.com/sitemap.xml

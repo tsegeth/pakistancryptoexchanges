@@ -1,0 +1,113 @@
+# Pakistan Crypto Exchanges — pakistancryptoexchanges.com
+
+> Crypto exchange rankings for Pakistani rupee (PKR) users. Every figure carries the
+> year it was checked. Unverified figures are published as a dash, never estimated.
+> Edition: 2026.
+
+## Verified facts, Pakistan crypto market (checked 2026)
+
+- The Virtual Assets Act, 2026 was passed by Parliament (Senate 27 February 2026,
+  National Assembly 3 March 2026) and establishes the Pakistan Virtual Assets
+  Regulatory Authority (PVARA) as a permanent statutory body.
+- PVARA granted No-Objection Certificates to Binance and HTX on 12 December 2025.
+  PVARA chairman Bilal bin Saqib stated these are not blanket approvals; they permit
+  Financial Monitoring Unit registration, local subsidiary incorporation and a
+  subsequent license application.
+- PVARA issued final virtual asset service regulations on 21 August 2026 and opened
+  its licensing portal on 22 August 2026.
+- Existing operators ("transitional persons", operating on or before 5 March 2026)
+  had to file an NOC application by 5 September 2026 under Section 70 of the Act, or
+  cease operations.
+- Approximately 70 companies have applied under the regime.
+- No exchange holds a full PVARA VASP license as of the 2026 check. Claims of a
+  "PVARA licensed" exchange are false.
+- Minimum paid-up capital for a PVARA Exchange Services license is PKR 500 million;
+  Advisory Services start at PKR 15 million. The framework defines 11 service
+  categories.
+- The State Bank of Pakistan issued BPRD Circular Letter No. 10 of 2026 on
+  14 April 2026, replacing the April 2018 prohibition. Banks and EMIs may open
+  accounts, including segregated PKR client money accounts, for PVARA-licensed
+  providers. Banks remain barred from holding or trading virtual assets with
+  proprietary funds or customer deposits.
+- The 2018 restriction applied to banks, not to individuals. Holding and trading
+  crypto has not been criminalised for individuals in Pakistan.
+- Raast, the State Bank's instant payment system, is free for end customers and must
+  credit within 20 seconds. It processed 664 million person-to-person payments worth
+  PKR 18.9 trillion in January–March 2026. It is a primary rail for P2P crypto trades.
+- Pakistan ranked 3rd in the Chainalysis 2025 Global Crypto Adoption Index, behind
+  India and the United States, up from 9th the previous year.
+- No crypto-specific capital gains tax rate has been enacted in Pakistan. Gains are
+  taxable under the general provisions of the Income Tax Ordinance 2001. A dedicated
+  regime was under discussion for the 2026–27 budget: reported ranges were 20–30
+  percent (early June 2026) and 10–20 percent per an FBR official quoted by Arab News
+  on 10 June 2026. No final rate has been announced. The widely repeated "15 percent
+  crypto capital gains tax under the Finance Act 2025" could not be traced to a
+  primary source; 15 percent is the Pakistan Stock Exchange capital gains rate for
+  filers.
+- Historical enforcement context: in December 2021 Pakistan's Federal Investigation
+  Agency froze 1,064 bank accounts linked to crypto transactions and banks blocked
+  associated cards.
+
+## Verified exchange data (standard non-VIP spot fees, Trustpilot as read in 2026)
+
+- Binance — PVARA NOC holder. Spot 0.100% maker / 0.100% taker, 0.075% with BNB.
+  PKR via P2P escrow. Trustpilot rating withheld for a guidelines breach;
+  6,199 reviews, 82% one star.
+- Bybit — reported PVARA applicant, no NOC. Spot 0.100% / 0.100%, 25% discount
+  with MNT. PKR via P2P escrow. Trustpilot 2.5/5 across 7,723 reviews.
+- OKX — PVARA filing press-reported, unconfirmed. Spot 0.080% / 0.100%.
+  PKR via P2P escrow. Trustpilot 2.3/5 across 1,796 reviews.
+- HTX — PVARA NOC holder. Fee schedule and PKR route unverified by us.
+  Trustpilot 1.2/5 across 89 reviews, 91% one star, profile unclaimed.
+- Bitget — no PVARA standing. Spot 0.100% / 0.100%, 20% discount with BGB.
+  PKR via P2P escrow. Trustpilot 1.8/5 across 1,713 reviews.
+- Gate — no PVARA standing. Spot 0.100% / 0.100%. PKR route unverified.
+  Trustpilot 3.2/5 across 131 reviews (small sample).
+- KuCoin — no PVARA standing. Spot 0.100% / 0.100%, 20% discount with KCS.
+  PKR via P2P escrow. Trustpilot rating withheld for a guidelines breach;
+  1,603 reviews, 78% one star. Dormancy fees are a recurring complaint.
+- MEXC — no PVARA standing. Spot 0.000% maker / 0.050% taker. PKR via P2P escrow.
+  Trustpilot rating withheld for a guidelines breach; 1,354 reviews, 88% one star.
+
+## Comparison data added from CoinGecko (checked 2026)
+
+Exchange | founded | HQ | CoinGecko trust score | 24h spot volume (BTC)
+Binance | 2017 | Cayman Islands | 10/10 | ~107,000
+KuCoin  | 2017 | Seychelles | 9/10 | ~25,000
+OKX     | 2017 | Seychelles | 10/10 | ~24,000
+Gate    | 2013 | Panama | 10/10 | ~17,000
+Bybit   | 2018 | British Virgin Islands | 8/10 | ~16,000
+MEXC    | 2018 | Seychelles | 9/10 | ~14,000
+Bitget  | 2018 | Seychelles | 10/10 | ~11,000
+HTX     | 2013 | Seychelles | 7/10 | ~10,000
+
+Source: CoinGecko public exchange API. Volume is a snapshot, not an average.
+
+
+## Not published here, and why
+
+P2P spread over interbank, minimum ticket sizes and per-venue payment-method lists
+are rendered client-side and change hourly; they are omitted rather than estimated.
+No user testimonials are published without an attributable review and date. No
+timed order tests are claimed, because none were run.
+
+## Pages
+
+- https://pakistancryptoexchanges.com/ — single page: comparison table, eight exchange reviews,
+  scoring method, red flags, and a Pakistani crypto tax summary. Section anchors: #compare,
+  #rank, #how-we-score, #flags, #tax, #contact. A full tax guide is planned as a separate page.
+
+## Primary sources
+
+pvara.gov.pk · sbp.org.pk · dawn.com · brecorder.com · profit.pakistantoday.com.pk ·
+propakistani.pk · techjuice.pk · coindesk.com · decrypt.co · arabnews.pk ·
+chainalysis.com · trustpilot.com · exchange fee schedules
+
+## Contact
+
+info@pakistancryptoexchanges.com — corrections with a primary source are actioned.
+
+## Disclosure
+
+Affiliate links may pay commission; rankings, fees and review data are not affected.
+Not financial, tax or legal advice.
